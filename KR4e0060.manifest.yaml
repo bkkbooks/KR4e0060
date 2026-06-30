@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR4e0060/v1
+canonical_location: https://kanripo.org/bkk/KR4e0060/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 畦樂詩集
+  date: '2015-08-25 00:17:55.828318'
+  source:
+    repository: kanripo
+    path: KR4e0060
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0060_000.yaml, hash: 'sha256:82d7505c68dc571c14ad45b2912dfacc810c15367ba3c4574c0a15f0f7c786fa'}
+  - {seq: 1, filename: KR4e0060_001.yaml, hash: 'sha256:cafff54828391768b1d109e18c5c37d142c50338041754a266af0de895367fff'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0060_000.markers.yaml, hash: 'sha256:df74fb840e91117edd1844fd85e7e6a9de20f31c47c51c1e70e45a9b7fde8ebd'}
+  - {seq: 1, role: markers, filename: assets/KR4e0060_001.markers.yaml, hash: 'sha256:4a9c9c89fd0129f8052b97445e9ae1bc59d37ff06ed70e67e740edcde92fc4d2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0060_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 311
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0060_WYG_000-3a
+    span:
+    - body
+    - 311
+    - 913
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0060_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 15765
+  label: 畦樂詩集
+  type: section
+  level: 1
+hash: sha256:7e532ef24c0f44fafb48d411e9b57d293641cbe5a70bbd589ab9b5ca39611df8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
