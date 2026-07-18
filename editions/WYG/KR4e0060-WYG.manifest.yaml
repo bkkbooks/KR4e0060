@@ -20,8 +20,8 @@ assets:
   - {seq: 0, filename: KR4e0060_000-WYG.yaml, hash: 'sha256:04a69acd85d3bf8a28ffa5d9cb1fbdd9fde4df9263088e516f5b29eeccccf9df'}
   - {seq: 1, filename: KR4e0060_001-WYG.yaml, hash: 'sha256:35df0e109d0765b815b3970d3f2e74e3cee149ff8c3cbffecade04de0a5d9c67'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR4e0060_000-WYG.markers.yaml, hash: 'sha256:49cf8fd1378c8b9975bf91024842bf5288666edd58c84eb7a0d5cc5d3cac3f4f'}
-  - {seq: 1, role: markers, filename: assets/KR4e0060_001-WYG.markers.yaml, hash: 'sha256:3d91cca3f9adfdfd2823b4472b54fbd05463cc3d17a8d0b692f85ab5259cb719'}
+  - {seq: 0, role: markers, filename: assets/KR4e0060_000-WYG.markers.yaml, hash: 'sha256:35337cbd472c725b8ebf0b679374eab28116841b29925805fac3b659ddca93a3'}
+  - {seq: 1, role: markers, filename: assets/KR4e0060_001-WYG.markers.yaml, hash: 'sha256:983754646b727af220ab06f62f3eca3891ad60e00ef1a28db98ee08b487ad7ec'}
 table_of_contents:
 - ref:
     seq: 0
@@ -53,4 +53,4 @@ table_of_contents:
   label: 畦樂詩集
   type: section
   level: 1
-hash: sha256:0d41d59a043a9339ddb20e7f7be0f52e15290ac01d3db9919b37a5fa224aa505
+hash: sha256:49bb5bfe91a3d9d9cdaa97563a212b0b4f538bb6bc436d47e66bb94dad8f31a6
